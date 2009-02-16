@@ -1,0 +1,112 @@
+leafpad
+------------------------------------------
+Leafpad is a simple GTK+ text editor that emphasizes simplicity. As 
+development focuses on keeping weight down to a minimum, only the most 
+essential features are implemented in the editor. Leafpad is simple to 
+use, is easily compiled, requires few libraries, and starts up quickly.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libcairo2-1.8.6-1
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-2
+  libintl8-0.17-2
+  libpango1.0_0-1.22.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gnome-common-2.24.0-1
+  intltool-0.40.5-1
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://tarot.freeshell.org/leafpad/
+
+Canonical download:
+  http://savannah.nongnu.org/download/leafpad/
+
+-------------------------------------------
+
+Build instructions:
+  unpack leafpad-0.8.16-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./leafpad-0.8.16-X.cygport all
+
+This will create:
+  /usr/src/leafpad-0.8.16-X-src.tar.bz2
+  /usr/src/leafpad-0.8.16-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/leafpad.sh
+  /usr/bin/leafpad.exe
+  /usr/share/applications/leafpad.desktop
+  /usr/share/doc/leafpad-0.8.16/ABOUT-NLS
+  /usr/share/doc/leafpad-0.8.16/AUTHORS
+  /usr/share/doc/leafpad-0.8.16/COPYING
+  /usr/share/doc/leafpad-0.8.16/ChangeLog
+  /usr/share/doc/leafpad-0.8.16/INSTALL
+  /usr/share/doc/leafpad-0.8.16/NEWS
+  /usr/share/doc/leafpad-0.8.16/README
+  /usr/share/icons/hicolor/16x16/apps/leafpad.png
+  /usr/share/icons/hicolor/22x22/apps/leafpad.png
+  /usr/share/icons/hicolor/24x24/apps/leafpad.png
+  /usr/share/icons/hicolor/32x32/apps/leafpad.png
+  /usr/share/icons/hicolor/scalable/apps/leafpad.svg
+  /usr/share/locale/bg/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/ca/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/cs/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/da/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/de/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/el/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/es/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/eu/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/fi/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/fr/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/ga/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/he/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/hu/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/id/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/it/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/ja/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/ko/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/lt/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/nl/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/pl/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/pt/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/ru/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/sk/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/sv/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/ta/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/tr/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/uk/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/vi/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/leafpad.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/leafpad.mo
+  /usr/share/pixmaps/leafpad.png
+  /usr/share/pixmaps/leafpad.xpm
+
+------------------
+
+Port Notes:
+
+----- version 0.8.16-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
