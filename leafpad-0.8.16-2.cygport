@@ -1,5 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="GTK+ simple text editor"
-HOMEPAGE="http://tarot.freeshell.org/leafpad/"
-SRC_URI="http://savannah.nongnu.org/download/leafpad/${P}.tar.gz"

@@ -1,0 +1,13 @@
+inherit gnome2
+
+NAME="leafpad"
+VERSION=0.8.16
+RELEASE=2
+CATEGORY="Editors"
+SUMMARY="GTK+ simple text editor"
+DESCRIPTION="Leafpad is a simple GTK+ text editor that emphasizes simplicity.
+As development focuses on keeping weight down to a minimum, only the most
+essential features are implemented in the editor. Leafpad is simple to use,
+is easily compiled, requires few libraries, and starts up quickly."
+HOMEPAGE="http://tarot.freeshell.org/leafpad/"
+SRC_URI="mirror://savannah/leafpad/${NAME}-${VERSION}.tar.gz"
