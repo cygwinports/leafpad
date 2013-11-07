@@ -1,8 +1,8 @@
 inherit gnome2
 
 NAME="leafpad"
-VERSION=0.8.16
-RELEASE=2
+VERSION=0.8.18.1
+RELEASE=1
 CATEGORY="Editors"
 SUMMARY="GTK+ simple text editor"
 DESCRIPTION="Leafpad is a simple GTK+ text editor that emphasizes simplicity.
